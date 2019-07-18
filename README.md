@@ -1,6 +1,6 @@
 # WeblogicScan
 
-增强版WeblogicScan 从WeblogicScan V1.2 版本修改而来。
+增强版WeblogicScan 从rabbitmask大佬的WeblogicScan V1.2 版本修改而来。 修改前源项目地址：https://github.com/rabbitmask/WeblogicScan
 
 ![weblogicscan](weblogicscan.png)
 
@@ -103,3 +103,11 @@ __all__ = ['WeblogicConsole', 'CVE-2019-2618','CVE-2014-4210','CVE-2019-2725','C
 # Thanks
 
 感谢Daybreak的CVE-2019-2618 检测脚本
+
+# UPDATES
+
+修复了一些POC存在的问题，请表哥们及时git clone 新的代码。由于脚本改的比较仓促，表哥们发现一些bug可直接发issue，逐步改进。
+
+# NOTES
+
+目前暂不支持Weblogic 10.3.6   Weblogic 12.1.3.0.0和Weblogic12.2.1.3.0  JDK1.7版本的CVE-2019-2729漏洞检测。
